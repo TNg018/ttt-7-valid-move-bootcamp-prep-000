@@ -34,4 +34,4 @@ end
   #board[index] != " "
 #end
 
-#Why so much less information?
+#Why so much less input code?
