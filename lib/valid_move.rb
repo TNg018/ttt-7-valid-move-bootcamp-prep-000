@@ -9,6 +9,7 @@ def valid_move?(board, index)
     true
   end
 end
+# Why does position_taken?(board, index) not equal board[index] == X or O?
 # use of || vs &&
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(board, index)
@@ -18,3 +19,17 @@ else board[index] == "" || board[index] == " "
   true
 end
  end
+
+ #given answer : def valid_move?(board, index)
+  # if index.between?(1,9)
+  #   if !position_taken?(board, index)
+  #     true
+  #   end
+  # end
+
+#  index.between?(0,8) && !position_taken?(board, index)
+#end
+
+#def position_taken?(board, index)
+  #board[index] != " "
+#end
