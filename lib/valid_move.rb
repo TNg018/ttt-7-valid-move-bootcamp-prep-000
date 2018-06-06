@@ -33,3 +33,5 @@ end
 #def position_taken?(board, index)
   #board[index] != " "
 #end
+
+#Why so much less information?
